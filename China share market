@@ -1,0 +1,125 @@
+---
+name: a-share-market-flow
+description: Analyze A-share market news, index action, sector chains, trend structure, and paper-trading setups. Use when the user wants A-share news tracking, market overview, industry chain mapping, trend analysis, or simulated trading plans.
+---
+
+# A-Share Market Flow
+
+## Purpose
+
+Use this skill for A-share market research and simulated trading work.
+
+It helps with:
+- A-share news tracking
+- Market overview and index review
+- Sector and industry-chain analysis
+- Trend and momentum assessment
+- Simulated trading plans and post-trade review
+
+## Core Rules
+
+- Separate facts, inference, and action plans.
+- Use the latest date and timestamp in every analysis.
+- Prefer primary or high-quality sources.
+- Do not present rumors as confirmed events.
+- Do not claim certainty for intraday moves or future prices.
+- This skill supports research and simulation, not real-money execution.
+
+## Workflow
+
+### 1. News scan
+Collect the day's market-relevant news:
+- macro policy
+- major index drivers
+- sector catalysts
+- company announcements
+- overseas market spillover
+- commodity and FX effects
+
+For each item, record:
+- source
+- time
+- affected index, sector, or stock
+- likely impact direction
+
+### 2. Market view
+Summarize the main market state:
+- Shanghai Composite
+- Shenzhen Component
+- ChiNext
+- CSI 300
+- CSI 500 / CSI 1000 if relevant
+- overall breadth
+- volume change
+- leading and lagging sectors
+
+### 3. Industry-chain mapping
+When a sector moves, trace the chain:
+- upstream
+- midstream
+- downstream
+- equipment / materials / components / applications
+- beneficiaries and weak links
+
+Output the chain in a simple structure:
+- driver
+- core sector
+- related sub-sectors
+- key listed stocks if known
+- risk points
+
+### 4. Trend analysis
+Judge trend using:
+- price structure
+- moving averages if available
+- volume confirmation
+- breakout or breakdown status
+- support and resistance
+- relative strength versus the index
+
+Classify each target as:
+- strong uptrend
+- rebound
+- range-bound
+- weak trend
+- breakdown risk
+
+### 5. Simulated trading plan
+For paper trading, provide:
+- entry logic
+- invalidation level
+- target zone
+- time horizon
+- risk note
+- scenario-based plan
+
+Keep the plan concise and rule-based:
+- what would confirm the setup
+- what would cancel the setup
+- what to watch next
+
+### 6. Post-review
+After the market session, summarize:
+- what happened
+- what was right
+- what was wrong
+- what to track tomorrow
+
+## Output Format
+
+Use this order:
+1. Date and market session
+2. News highlights
+3. Market summary
+4. Industry-chain analysis
+5. Trend judgment
+6. Simulated trade ideas
+7. Risk notes
+
+## Style
+
+- Be concise and readable.
+- Use bullet points for fast scanning.
+- Use Chinese when the user speaks Chinese.
+- Keep numbers and dates explicit.
+- Mark speculation clearly as inference.
